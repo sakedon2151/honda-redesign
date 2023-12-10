@@ -1,0 +1,48 @@
+/* ----- sc svg ----- */
+path.sc{
+    stroke-dasharray: 1150;
+    stroke-dashoffset: 1150;
+    animation: svg1 3s ease-in-out forwards;
+}
+@keyframes svg1{
+    0%{
+        stroke-dashoffset: 1150;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+
+
+/* ----- at svg ----- */
+path.at{
+    stroke-dasharray: 1150;
+    stroke-dashoffset: 1150;
+    animation: svg2 3s ease-in-out forwards;
+}
+@keyframes svg2{
+    0%{
+        stroke-dashoffset: 1150;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+
+
+/* ----- cr svg ----- */
+path.cr{
+    stroke-dasharray: 1150;
+    stroke-dashoffset: 1150;
+    animation: svg3 3s ease-in-out forwards;
+}
+@keyframes svg3{
+    0%{
+        stroke-dashoffset: 1150;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
